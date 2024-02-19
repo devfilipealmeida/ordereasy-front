@@ -1,4 +1,5 @@
 import { Tag } from "../Tag"
+import { SearchBar } from "./SearchBar"
 
 export const FiltersSearch = () => {
     return (
@@ -6,6 +7,7 @@ export const FiltersSearch = () => {
             <Tag category={"Massas e Pizzas"} />
             <Tag category={"Hamburguer"} />
             <Tag category={"Combos"} />
+            <SearchBar />
         </div>
     )
 }
