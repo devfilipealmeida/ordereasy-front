@@ -1,8 +1,9 @@
-import { 
-    Cover, 
-    Header, 
-    FiltersSearch, 
-    ProductCard } from "@/components";
+import {
+    Cover,
+    Header,
+    FiltersSearch,
+    ProductCard
+} from "@/components";
 
 export default function Cardapio() {
     return (
@@ -13,9 +14,14 @@ export default function Cardapio() {
             </section>
             <div>
                 <Header />
-                <section className="px-4 lg:px-36">
-                    <FiltersSearch />
-                    <div className="lg:grid lg:grid-cols-2">
+                <section>
+                    <div className="px-4 lg:px-32">
+                        <FiltersSearch />
+                    </div>
+                    <div className="border-b border-gray-200 border-solid border-2">
+                        {/* Linha */}
+                    </div>
+                    <div className="mt-6 px-4 lg:px-32 lg:grid lg:grid-cols-2 gap-2">
                         <ProductCard />
                         <ProductCard />
                     </div>
