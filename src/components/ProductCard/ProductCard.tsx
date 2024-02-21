@@ -5,9 +5,11 @@ export const ProductCard = () => {
     return (
         <div className="
             flex flex-row 
-            lg:w-[30rem] border-[2px] 
-            border-solid rounded-xl 
-            px-4 py-2 hover:border-black hover:border-[1px]">
+            lg:w-full border-[2px] 
+            border-solid rounded-lg 
+            px-4 py-2 hover:border-black hover:border-[1px]
+            justify-self-center mb-2
+            ">
             <div>
                 <p className="font-bold text-base">Pizza Especial de Calabresa</p>
                 <p className="text-sm">Filé de peito frango - queijo - ovo - presunto de peru - alface - tomate - cebola</p>
