@@ -7,6 +7,7 @@ import {
 import { ChevronRightIcon } from '@heroicons/react/24/outline'
 
 export default function Cardapio() {
+
     return (
         // aqui mudei de h-full pra screen
         <body className='w-full h-full bg-bg-gray-main'>
@@ -29,6 +30,10 @@ export default function Cardapio() {
                         <p className="font-bold text-base">Pizza</p>
                         </div>
                         <div className="lg:grid lg:grid-cols-2 gap-4">
+                        <ProductCard />
+                        <ProductCard />
+                        <ProductCard />
+                        <ProductCard />
                         <ProductCard />
                         <ProductCard />
                         <ProductCard />
