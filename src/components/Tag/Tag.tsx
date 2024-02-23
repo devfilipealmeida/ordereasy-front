@@ -4,7 +4,7 @@ export const Tag = ({category}: {category: string}) => {
             inline-flex 
             items-center 
             bg-gray-200 
-            text-gray-700 
+            text-gray-letters-title
             rounded-full 
             px-3 py-1 text-sm 
             font-semibold mr-2"

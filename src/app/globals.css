@@ -6,6 +6,7 @@ html,
 body {
   zoom: 100%;
   margin: 0;
+  overflow-x: hidden;
 }
 
 ::-webkit-scrollbar {
