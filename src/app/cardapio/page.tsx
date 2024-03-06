@@ -5,9 +5,9 @@ import {
     ProductCard
 } from "@/components";
 import { ChevronRightIcon } from '@heroicons/react/24/outline'
+import { CartBar } from "./components/CartBar";
 
 export default function Cardapio() {
-
     return (
         // aqui mudei de h-full pra screen
         <body className='w-full h-full bg-bg-gray-main'>
@@ -43,6 +43,7 @@ export default function Cardapio() {
                     </div>
                 </section>
             </div>
+            <CartBar />
         </body>
     )
 }
