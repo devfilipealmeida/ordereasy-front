@@ -1,4 +1,5 @@
 import { ShoppingCartIcon } from '@heroicons/react/24/solid'
+import { CartModal } from './CartModal'
 
 export const CartBar = () => {
     return (
@@ -28,6 +29,7 @@ export const CartBar = () => {
             <div className='flex'>
                 <p className='font-bold text-white'>R$ 25,00</p>
             </div>
+            <CartModal />
         </div>
     )
 }
